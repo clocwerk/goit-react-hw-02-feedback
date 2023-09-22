@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   const emoji = positivePercentage < 50 ? '👎' : '👍';
   console.log(emoji);

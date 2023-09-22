@@ -1,4 +1,3 @@
-import { PropTypes } from 'prop-types';
 const FeedbackOptions = props => {
   const { options, leaveFeedback } = props;
   return (
